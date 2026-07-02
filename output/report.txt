@@ -1,0 +1,5 @@
+Report zum Bash Projekt
+
+Anzahl der Namen: 7
+
+Diese Datei wurde automatisch durch ein Shell Skript erstellt.
