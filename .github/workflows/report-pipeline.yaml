@@ -19,3 +19,10 @@ jobs:
 
       - name: Skript ausführen
         run: bash scripts/04_create_report.sh
+
+  
+      - name: Report Hochladen
+        uses: actions/upload-artifact@v4
+        with:
+          name: namen-report
+          path: output/report.txt
