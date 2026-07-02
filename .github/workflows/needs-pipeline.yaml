@@ -33,4 +33,4 @@ jobs:
         run: chmod +x scripts/*.sh
 
       - name: Skript ausführen
-        run: scripts/bash 03_count_names.sh
+        run: bash scripts/03_count_names.sh
