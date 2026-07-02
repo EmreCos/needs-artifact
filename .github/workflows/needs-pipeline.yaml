@@ -18,7 +18,7 @@ jobs:
         run: chmod +x scripts/*.sh
 
       - name: Skript ausführen
-        run: bash 02_check_files.sh
+        run: bash scripts/02_check_files.sh
 
 
 
@@ -33,4 +33,4 @@ jobs:
         run: chmod +x scripts/*.sh
 
       - name: Skript ausführen
-        run: bash 03_count_names.sh
+        run: scripts/bash 03_count_names.sh
